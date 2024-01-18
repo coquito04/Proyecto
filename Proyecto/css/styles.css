@@ -1,0 +1,169 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.menu {
+  display: flex;
+  background-color: azure;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 30px;
+
+}
+
+.img-back { 
+  background-image: url(../img/descarga\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.class biomecanica {
+  text-align: center;
+}
+
+a { /*Links*/
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  font-weight: bold;
+}
+
+.menu-nav li{
+  display: inline;
+  margin-right: 40px;
+  background-color: aqua;
+}
+
+.fonts { /*Customizacion de parrafo*/
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.tips {
+  bottom: 0%;
+  position: relative;
+  margin-top: 620px;
+  color: aliceblue;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  text-align: left;
+}
+
+.tips article {
+  background: rgba(0, 0, 0, 0.4);
+  width: 60%;
+  padding: 15px;
+}
+
+.contacto-tittle {
+  color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 400px;
+}
+
+.tips ol li {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.tips ol {
+  list-style-type: none;
+}
+
+.mr {
+    color: black
+}
+
+.ts {
+  color: black;
+  margin-top: 70px;
+}
+
+.ul li {
+  text-align: center;
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.ti {
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+}
+
+.cont-h1 {
+  color: black;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 50px;
+
+}
+
+.tittl-form {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 100px;
+}
+
+.ayuda1{
+  color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.ayuda2 {
+  color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 60px;
+}
+
+footer {
+  color:firebrick;
+  position: relative;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.img-back-cont {
+  background-image: url(../img/descarga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ayuda3 {
+  color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 40px;
+}
+
+.tips-ayuda ol {
+  color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+header nav ul li a:hover {
+  color: grey;
+}
