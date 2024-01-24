@@ -3,19 +3,37 @@
   padding: 0%;
 }
 
-.menu {
-  display: flex;
-  background-color: azure;
-  justify-content: center;
+
+/*MOVIL*/
+@media (min-widht: 320px) and (max-widht: 480px) {
 }
 
-h1 {
-  color: white;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px;
-  margin-top: 30px;
+/*TABLET*/
+@media (min-widht: 576px) and (max-widht: 991px) {
+}
 
+/*MONITOR*/
+@media (min-widht: 1180){
+}
+
+
+.menu {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  color: white;
+}
+
+.titulo {
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 38%;
+  padding: 10px;
 }
 
 .img-back { 
@@ -33,9 +51,10 @@ a { /*Links*/
   text-decoration: none;
   color: black;
   justify-content: space-between;
-  background-color: white;
+  color: white;
   width: 100%;
   font-weight: bold;
+  background-color: black;
 }
 
 .menu-nav li{
@@ -46,15 +65,18 @@ a { /*Links*/
 
 .fonts { /*Customizacion de parrafo*/
   font-family: 'Noto Sans JP', sans-serif;
-  text-align: center;
   color: white;
-  margin-top: 20px;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  width: 20%;
+  margin-left: 40px;
 }
 
 .tips {
   bottom: 0%;
   position: relative;
-  margin-top: 620px;
+  margin-top: 543px;
   color: aliceblue;
   font-weight: 700;
   width: 100%;
@@ -73,7 +95,7 @@ a { /*Links*/
   color: black;
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
-  margin-top: 400px;
+  margin-top: 500px;
 }
 
 .tips ol li {
@@ -86,12 +108,19 @@ a { /*Links*/
 }
 
 .mr {
-    color: black
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .ts {
   color: black;
-  margin-top: 70px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .ul li {
@@ -125,24 +154,20 @@ a { /*Links*/
   margin-top: 100px;
 }
 
-.ayuda1{
+.ayuda {
   color: black;
   text-align: center;
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
-.ayuda2 {
-  color: black;
-  text-align: center;
-  font-family: 'Noto Sans JP', sans-serif;
-  margin-top: 60px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 footer {
-  color:firebrick;
+  color: white;
   position: relative;
-  text-align: left;
-  margin-bottom: 100px;
+  background-color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .img-back-cont {
@@ -151,19 +176,22 @@ footer {
   background-size: cover;
 }
 
-.ayuda3 {
-  color: black;
-  text-align: center;
-  font-family: 'Noto Sans JP', sans-serif;
-  margin-top: 40px;
-}
-
 .tips-ayuda ol {
   color: black;
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 30px;
+  text-align: start;
+  margin-left: 20px;
 }
 
 header nav ul li a:hover {
   color: grey;
+}
+
+.consejos {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: start;
+  margin-left: 30px;
+  margin-top: 200px;
 }
